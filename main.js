@@ -12,14 +12,13 @@ function new_image()
         block_image_object.set({
             top:0,
             left:0
+
         });
-         canvas.add(block_image_object);
+        canvas.add(block_image_object);
     });
 	
 }
 
 function playSound(){
-
-    x.play();
-	
+	x.play();
 }
